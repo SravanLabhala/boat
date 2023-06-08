@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: auto;
+}
+#wrapper{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1300px;
+    margin: 0% auto;
+    
+    
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+    
+}
+.items-center{
+    align-items: center;
+}
+
+
+/* ################################################################################## */
+
+/* HEADER STARTS */
+
+.navbar .logo h1{
+    font-family: 'Oswald', sans-serif;
+}
+.navbar .menu ul li a{
+    margin-left: 15px;
+    /* background-color: brown; */
+    padding: 8px 18px;
+    color: #000;
+}
+.navbar{
+    margin-top: 10px;
+}
+/* HEADER ENDS */
+
+/* ################################################################################## */
+
+/* BANNER STARTS */
+.banner-sec{
+    /* background-color: burlywood; */
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.banner-sec .banner{
+    background-color: #ffdd62;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.ban-content{
+    /* background-color: bisque; */
+    margin: 0 auto;
+    
+}
+.ban-img{
+    /* background-color: bisque; */
+    margin: 0 auto;
+    /* padding-top: 120px; */
+    position: relative;
+    top: 50px;
+}
+.ban-content h1{
+    font-size: 52px;
+
+}
+.ban-content h1 span{
+    font-weight: 300;
+}
+
+.ban-content p{
+    font-size: 18px;
+}
+.ban-content .btn{
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    margin-top: 18px;
+    padding: 8px 30px;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+
+/* BANNER ENDS */
+
+/* ################################################################################## */
+
+/* CARD STARTS */
+.cards-sec{
+    width: 100%;
+    height: auto;
+}
+.mutiple-cards{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    margin-bottom: 20px;
+
+}
+.card{
+    width: 305px;
+    height: 345px;
+    background-color: bisque;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* margin: 0 auto; */
+}
+.card img{
+    margin: 0 auto;
+    width: 60%;
+    transition: 0.3s;
+
+}
+.card:hover img{
+    transform: scale(1.2);
+}
+.card1{
+    background-color: #e2d74b;
+    
+}
+.card2{
+    background-color: #65d1ce;
+
+}
+.card3{
+    background-color: #a6a16a;
+
+}
+.card4{
+    background-color: #e2d78b;
+
+}
+
+
+
+
+/* CARD ENDS */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################################################################################## */
